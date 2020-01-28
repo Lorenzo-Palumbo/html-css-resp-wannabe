@@ -68,12 +68,14 @@ img{
 
 @media screen and (max-width: 420px) {
 
-    body {
-        background-color: red
-    }
-}
-
 #lezioni .row > .left, #lezioni .row > .right{
   width: 50%;
   float: none;
+}
+
+#steps .row > .left,
+#steps .row > .central,
+#steps .row > .right{
+  float: none;
+}
 }
