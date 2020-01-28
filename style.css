@@ -66,13 +66,14 @@ img{
   clear:both;
 }
 
-@media screen and (min-width: 420px) {
+@media screen and (max-width: 420px) {
+
+    body {
+        background-color: red
+    }
 }
 
-.left{
-    background-color: blue
-}
-
-.right{
-    float: left;
+#lezioni .row > .left, #lezioni .row > .right{
+  width: 50%;
+  float: none;
 }
